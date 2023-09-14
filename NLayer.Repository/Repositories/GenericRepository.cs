@@ -63,5 +63,10 @@ namespace NLayer.Repository.Repositories
         {
             return _dbSet.Where(expression);
         }
+
+        Task<bool> IGenericRepository<T>.AddRangeAsync(IEnumerable<T> entities)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
