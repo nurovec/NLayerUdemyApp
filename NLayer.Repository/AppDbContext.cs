@@ -39,7 +39,7 @@ namespace NLayer.Repository
                     ProductId = 2
                 }
             );
-            //base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
         }
 
     }
